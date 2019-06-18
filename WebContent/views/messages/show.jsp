@@ -7,7 +7,6 @@
             <c:when test="${message != null}">
                 <h2>id : ${message.id} のタスク内容詳細ページ</h2>
 
-
                 <p>内容：<c:out value="${message.content}" /></p>
                 <p>作成日時：<fmt:formatDate value="${message.created_at}" pattern="yyyy-MM-dd HH:mm:ss" /></p>
                 <p>更新日時：<fmt:formatDate value="${message.updated_at}" pattern="yyyy-MM-dd HH:mm:ss" /></p>
